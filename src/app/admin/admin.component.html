@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav bg-light" mode="side">
+
+        <app-sidenavbar></app-sidenavbar>
+
+    </mat-drawer>
+
+    <div class="example-sidenav-content bg-light-subtle">
+        <router-outlet />
+    </div>
+
+</mat-drawer-container>
