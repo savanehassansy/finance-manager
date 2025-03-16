@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-sidenavbar',
-  imports: [RouterLink],
+  imports: [RouterLink,RouterLinkActive],
   standalone: true,
   templateUrl: './sidenavbar.component.html',
   styleUrl: './sidenavbar.component.scss'
