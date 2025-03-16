@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { ToolbarComponent } from "../toolbar/toolbar.component";
 
 @Component({
   selector: 'app-dashboard',
-  imports: [ToolbarComponent],
+  imports: [],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.scss'
 })

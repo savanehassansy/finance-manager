@@ -1,15 +1,13 @@
 import { Routes } from '@angular/router';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { ToolbarComponent } from './pages/toolbar/toolbar.component';
+import { DashboardComponent } from './admin/features/dashboard/dashboard.component';
 
 export const routes: Routes = [
+
     {
-        path:'dash',
-        component: DashboardComponent
-    }, 
-    {
-        path:'',
-        component: ToolbarComponent
-    }, 
+        path: '',
+        loadChildren: () => import('./admin/admin.module').then((m) => m.AdminModule),
+    },
+  
+
     
 ];
