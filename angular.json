@@ -32,14 +32,8 @@
               }
             ],
             "styles": [
-<<<<<<< HEAD
               "src/styles.scss",
                "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
-=======
-              "@angular/material/prebuilt-themes/azure-blue.css",
-              "src/styles.scss",
-              "node_modules/@fortawesome/fontawesome-free/css/all.css"
->>>>>>> 9d822d175ff7c05eaa16824476e76a3b2889c715
             ],
             "scripts": [],
             "server": "src/main.server.ts",
