@@ -1,1 +1,147 @@
-<p>transactions works!</p>
+<!-- Navigation simple -->
+
+<!-- Contenu principal -->
+
+<div class="container">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+      <h2 class="fw-bold">Transactions</h2>
+      <p class="text-muted">Gérez et suivez toutes vos transactions</p>
+    </div>
+    <div>
+      <button class="btn btn-success">
+        <i class="bi bi-plus-lg"></i> Nouvelle transaction
+      </button>
+    </div>
+  </div>
+
+  <!-- Barre de recherche -->
+
+  <div class="input-group mb-4">
+    <span class="input-group-text bg-white"><i class="bi bi-search"></i></span>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Rechercher des transactions..."
+    />
+    <button
+      class="btn btn-outline-secondary dropdown-toggle"
+      type="button"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      Tous
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Tous</a></li>
+      <li><a class="dropdown-item" href="#">Revenus</a></li>
+      <li><a class="dropdown-item" href="#">Dépenses</a></li>
+    </ul>
+  </div>
+
+  <!-- Liste des transactions -->
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <table class="table align-middle mb-0">
+        <thead>
+          <tr>
+            <th>Transaction</th>
+            <th>Catégorie</th>
+            <th>Date</th>
+            <th>Montant</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="d-flex align-items-center gap-2">
+              <div class="transaction-icon icon-income">
+                <i class="bi bi-arrow-up-right"></i>
+              </div>
+              Salaire
+            </td>
+            <td>Revenu</td>
+            <td>15 avril 2025</td>
+            <td class="amount-positive">+4 500,00 €</td>
+          </tr>
+          <tr>
+            <td class="d-flex align-items-center gap-2">
+              <div class="transaction-icon icon-expense">
+                <i class="bi bi-arrow-down-left"></i>
+              </div>
+              Loyer
+            </td>
+            <td>Logement</td>
+            <td>1 avril 2025</td>
+            <td class="amount-negative">-650,00 €</td>
+          </tr>
+          <tr>
+            <td class="d-flex align-items-center gap-2">
+              <div class="transaction-icon icon-expense">
+                <i class="bi bi-arrow-down-left"></i>
+              </div>
+              Courses Carrefour
+            </td>
+            <td>Alimentation</td>
+            <td>12 avril 2025</td>
+            <td class="amount-negative">-87,35 €</td>
+          </tr>
+          <tr>
+            <td class="d-flex align-items-center gap-2">
+              <div class="transaction-icon icon-expense">
+                <i class="bi bi-arrow-down-left"></i>
+              </div>
+              Restaurant Le Bistrot
+            </td>
+            <td>Restaurant</td>
+            <td>10 avril 2025</td>
+            <td class="amount-negative">-45,80 €</td>
+          </tr>
+          <tr>
+            <td class="d-flex align-items-center gap-2">
+              <div class="transaction-icon icon-expense">
+                <i class="bi bi-arrow-down-left"></i>
+              </div>
+              Essence
+            </td>
+            <td>Transport</td>
+            <td>8 avril 2025</td>
+            <td class="amount-negative">-65,50 €</td>
+          </tr>
+          <tr>
+            <td class="d-flex align-items-center gap-2">
+              <div class="transaction-icon icon-income">
+                <i class="bi bi-arrow-up-right"></i>
+              </div>
+              Prime
+            </td>
+            <td>Revenu</td>
+            <td>20 avril 2025</td>
+            <td class="amount-positive">+250,00 €</td>
+          </tr>
+          <tr>
+            <td class="d-flex align-items-center gap-2">
+              <div class="transaction-icon icon-expense">
+                <i class="bi bi-arrow-down-left"></i>
+              </div>
+              Cinéma
+            </td>
+            <td>Loisirs</td>
+            <td>5 avril 2025</td>
+            <td class="amount-negative">-22,50 €</td>
+          </tr>
+          <tr>
+            <td class="d-flex align-items-center gap-2">
+              <div class="transaction-icon icon-expense">
+                <i class="bi bi-arrow-down-left"></i>
+              </div>
+              Pharmacie
+            </td>
+            <td>Santé</td>
+            <td>3 avril 2025</td>
+            <td class="amount-negative">-18,90 €</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

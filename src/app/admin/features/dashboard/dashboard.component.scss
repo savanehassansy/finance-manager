@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+}
+
+.item{
+    display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+    
+   padding: 7px 15px;
+   width: 20rem;
+    
+}
+
+.chart{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 15px;
+
+}
+.minChart{
+  
+  border: 1px solid lightgray;
+  border-radius: 5px;
+    
+  
+  
+}
